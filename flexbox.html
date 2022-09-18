@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            padding: 24px;
+
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            padding: 0 43px;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+            height: 66px;
+
+        }
+
+        .left {
+            height: 80vh;
+            width: 40vw;
+            background-color: aqua;
+        }
+
+        .right {
+            height: 80vh;
+            width: 40vw;
+            background-color: blueviolet;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, saepe esse tenetur id ullam vel
+            optio adipisci autem culpa cumque inventore fugiat voluptatibus repellat rerum sed, repudiandae illum omnis
+            quam. Nostrum culpa corporis quibusdam.</div>
+        <div class="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, eveniet deserunt.
+            Repellendus modi nam velit delectus optio quia, perspiciatis provident aliquid, rerum similique in facere?
+            Nisi, beatae corporis vel atque officia ratione ea illo minima fuga ullam. Vel, alias. Quibusdam neque qui
+            sit eligendi repellat laudantium quasi deleniti odio sapiente, mollitia doloremque aliquid voluptates aut.
+            Maxime?</div>
+    </div>
+
+</body>
+
+</html>
